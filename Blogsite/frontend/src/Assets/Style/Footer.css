@@ -1,0 +1,42 @@
+.footer{
+    /* border: 2px solid red; */
+    width: 80%;
+    float: right;
+    display: flex;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-color: rgb(18, 18, 18);
+    margin-top: 10%;
+    /* display: none; */
+}
+
+.footerul{
+    /* border: 2px solid red; */
+    margin-left: 13%;
+    background-color: rgb(18, 18, 18);
+
+}
+.footerul li{
+    list-style-type: none;
+    line-height: 3;
+    text-align: center;
+    font-size: 1rem;
+    color: gray;
+    background-color: rgb(18, 18, 18) ;
+
+}
+
+.lih4{
+    background-color: rgb(18, 18, 18);
+
+}
+
+
+@media screen and (max-width:426px) {
+    .footer{
+        /* border: 2px solid red; */
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+}

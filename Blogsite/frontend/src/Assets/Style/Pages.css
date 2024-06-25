@@ -1,0 +1,96 @@
+
+.card{
+    /* border: 2px solid red; */
+    width: 100%;
+    float: right;
+    margin-right: 20%;
+    margin-bottom: 2%;
+    margin-top: 3%;
+}
+.cardh1-1{
+    /* border: 2px solid red; */
+    margin-bottom: 2%;
+}
+.pageimg{
+    width: 100%;
+    margin-bottom: 3%;
+}
+
+.nextdata{
+    /* border: 2px solid red; */
+    width: 100%;
+    margin-top: 5%;
+}
+.pagesmain{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    float: right;
+    margin-right: 5%;
+    /* position: relative; */
+}
+.sidediv{
+    /* border: 2px solid red; */
+    float: right;
+    width: 20%;
+    margin-bottom: 20px;
+    margin-top: 1%;
+}
+.headingdiv{
+    /* border: 2px solid red; */
+    line-height: 2;
+    color: rgb(159, 157, 157) ;
+    margin-bottom: 3%;
+}
+
+.nextdata-p-1{
+    /* border: 2px solid red; */
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.typefaces{
+    /* border: 2px solid red; */
+    line-height: 2;
+}
+
+table, th, td{
+    border: 1px solid red;
+}
+table{
+    width: 100%;
+    text-align: center;
+    /* border: 2px solid red; */
+}
+
+th, td{
+    height: 35px;
+
+}
+.table-h1-1{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    /* color: white; */
+}
+
+
+@media screen and (max-width:426px) {
+    .pagesnew{
+        /* border: 2px solid red; */
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .sidediv{
+        
+        width: 80%;
+        margin-left: 25%;
+        
+    }
+    .pagesmain{
+        /* border: 2px solid red; */
+        width: 90%;
+    }
+}
+

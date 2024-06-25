@@ -1,0 +1,26 @@
+.updateform{
+    border: 2px solid red;
+    /* height:100px; */
+    /* color: white; */
+    margin-left: 1%;
+    margin-right: 1%;
+    width:28%;
+    margin-top: 2%;
+    float: right;
+}
+
+
+.delete{
+    border: 2px solid red;
+    margin-top: 2%;
+}
+
+.updatebtn{
+    width: 20%;
+    margin: 0px auto;
+    background-color: red;
+    color: white;
+    margin-left: 40%;
+    margin-top: 4%;
+    height:4vh;
+}

@@ -1,0 +1,146 @@
+/* *{
+    background-color: black;
+} */
+.form{
+    /* border: 2px solid red; */
+    width: 65%;
+    float: right;
+    position: relative;
+    right: 10%;
+    top: 10px;
+    margin-bottom: 20px;
+
+}
+.formh1{
+    font-size: 1.5rem;
+    
+}
+.inputl1{
+    width: 98%;
+    height: 30px;
+    font-size: 1.2rem;
+}
+.formh-1{
+    font-size: 3rem;
+    margin: 3% 5%;
+}
+.heading{
+    margin: 5%;
+}
+.text{
+    margin: 5%;
+}
+.inputt1{
+    font-size: 1.2rem;
+}
+
+.inputimg{
+    /* border: 2px solid red; */
+    margin: 5%;
+}
+.formh3{
+    font-size: 1.1rem;
+}
+.adminbtn{
+background-color: red;
+width: 10%;
+height: 30px;
+margin-left: 5%;
+}
+
+.more{
+    /* border: 2px solid red; */
+    width: 90%;
+    /* line-height: 2; */
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.td1img{
+    /* border: 2px solid red; */
+    width: 35%;
+    border-radius: 3vh;
+}
+.tdimg{
+    width: 10%;
+}
+/* .editbtn{
+
+    background-color: blue;
+    color: white;
+    border-radius: 4px;
+} */
+
+.tdheading{
+    width: 30%;
+}
+.admintable{
+    /* border: 2px solid red; */
+    width: 70%;
+    /* float: right; */
+    /* margin: 0px auto; */
+    margin-left: 25%;
+}
+
+.form2{
+    position: fixed;
+    background-color: black;
+    color: white;
+}
+
+
+.togglebtn{
+    width: 40px;
+    text-align: center;
+}
+.newbtn{
+    margin-top: -200px;
+}
+
+@media screen and (max-width:426px) {
+    
+    .adminnewform{
+        /* border: 2px solid red; */
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .form{
+        /* border: 2px solid red; */
+        width: 90%;
+        /* margin: 0px auto; */
+        margin-left: 15%;
+        
+
+    }
+    .adminbtn{
+        width: 30%;
+        margin-bottom: 10px;
+    }
+
+    .admintable{
+        /* border: 2px solid red; */
+        width: 100%;
+    margin-left: 0px;    
+    margin-top: 20px;
+    }
+    .editbtn{
+        width: 85%;
+
+    }
+    .inputt1{
+        width: 100%;
+    }
+
+
+    .form2{
+        /* border: 2px solid red; */
+        position: sticky;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+
+
+}

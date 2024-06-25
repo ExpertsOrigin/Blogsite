@@ -1,0 +1,57 @@
+
+.signup{
+     /* border: 2px solid red; */
+     display: flex;
+     float: right;
+     /* background-color: white; */
+    width: 60%;
+    /* height: 32rem; */
+    margin: 6% ;
+    border-radius: 10px;
+    background-color: transparent ;
+
+    
+}
+.register{
+    /* border: 2px solid red; */
+    width: 100%;
+}
+
+.signupimg{
+    width: 60%;
+
+}
+
+
+.signform{
+background-color: white;
+padding-top: 10%;
+/* border: 2px solid red; */
+width: 40%;
+/* margin-left: 20%; */
+line-height: 3.3;
+margin-left: 5%;
+background-color: transparent;
+}
+.l1{
+    color: whtie;
+}
+
+.signupinput{
+    width: 70%;
+    height: 30px;
+    /* border-radius: 5px; */
+    background-color: azure;
+    border: none;
+    border-bottom: 2px solid gray;
+}
+
+.signupbtn{
+    background-color: blue;
+    color: white;
+    width: 25%;
+    height: 35px;
+    padding-bottom: 0px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
